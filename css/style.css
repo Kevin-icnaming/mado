@@ -84,6 +84,11 @@ body a:hover{
 .logo-top {
     padding: 2em 0 0;
 }
+.services-grids .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 .head-top {
     margin-top: 1.5em;
 }
@@ -1626,6 +1631,7 @@ h3.tittle {
 .services-top {
     min-height: 407px;
 }
+
 .services-grid:nth-child(3), .services-grid:nth-child(4) {
     margin-top:2em;
 }
