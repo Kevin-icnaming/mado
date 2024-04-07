@@ -870,10 +870,27 @@ p.ever{
 }
 .mail-grids {
     margin:4em 0 3em;
+    background: url(../images/conntactimg.jpg) no-repeat left center;
 }
 .mail-grid-right1 {
     padding: 5.7em 5em;
     background: #EFEEEE;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 480px;
+}
+.mail-grid-right1 > div{
+    display: flex;
+    color:#999;
+    justify-content:flex-start;
+
+}
+.mail-grid-right1 > div i{
+	font-size: 2.5em;
+    color: #39BC54;
+    top: 0em;
+    margin-right: 0.8em;
 }
 .mail-grid-right1 ul li{
 	display:inline-block;
